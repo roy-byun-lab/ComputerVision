@@ -1,0 +1,13 @@
+1. リサイズ時の補間方法は、デフォルトでINTER_LINEARが指定されている。
+    他の補間方法を使いたい場合は、引数interpolationを指定する
+    指定できる補間方法は以下の10つである
+        INTER_NEAREST
+        INTER_LINEAR
+        INTER_CUBIC
+        INTER_AREA
+        INTER_LANCZOS4
+        INTER_LINEAR_EXACT
+        INTER_NEAREST_EXACT
+        INTER_MAX
+        WARP_FILL_OUTLIERS
+        WARP_INVERSE_MAP
